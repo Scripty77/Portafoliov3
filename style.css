@@ -7,8 +7,13 @@
     --text-color: #333;
 }
 
+@font-face {
+    font-family: Miracode;
+    src: url(/Miracode.ttf);
+}
+
 body {
-    font-family: "Berkshire Swash", serif;
+    font-family: "Miracode", serif;
     background-color: #1b1c1c;
     color: var(--text-color);
     margin: 0;
