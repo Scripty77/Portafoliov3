@@ -14,7 +14,7 @@
 
 body {
     font-family: "Miracode", serif;
-    background-color: #1b1c1c;
+    background-color: #181a1a;
     color: var(--text-color);
     margin: 0;
     display: flex;
@@ -22,22 +22,24 @@ body {
     justify-content: center;
     height: 100vh;
     font-weight: 800;
+    background: url(./icons/fondo_lain.jpg);
+    background-size: cover;
+    opacity: 0.8;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
     gap: 10px;
-    padding-top: 20px; /* Espacio pequeño en la parte superior */
+    align-content: center;
 }
 
 .container, .tecnologias, .redes {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    overflow: hidden; /* Evitar desbordamiento de contenido */
+    overflow: hidden; 
     text-align: center;
 }
 
